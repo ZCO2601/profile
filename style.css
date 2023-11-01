@@ -1,0 +1,87 @@
+body {
+  background-color : #F7F9FC;
+  font-family : 'Times New Roman', Times, serif;
+  font-size : 17px;
+  font-weight: lighter;
+  line-height: 1.0;
+  }
+
+h1, h2, h3 {
+  color: #575F7D;
+  font-size : 32px;
+  font-weight: 900;
+  line-height: 1.0;
+  }
+
+a {
+  color: #6B72E1;
+  text-decoration: none;
+  }
+
+a:hover {
+  text-decoration: underline;
+  }
+
+p {
+  color: #023e8a;
+  }
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  }
+
+.card {
+  text-align: center;
+  background-color: white;
+  padding : 30px;
+  margin : 30px;
+  border-radius : 4px;
+  border : 1px solid white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  }
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  }
+
+ul {
+  padding : 0px;
+  list-style: none;
+  }
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.img-circle {
+  width : 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
